@@ -1,0 +1,330 @@
+{{STATIC_URL}}
+*{
+
+	font-size: 16px/32px;
+	color: #000000 ;
+}
+html{
+
+
+	background-color:black;
+}
+a{
+
+	text-decoration: none;
+}
+body 
+{
+	background:url(./img/stardust.png);
+	width: 100%;
+	height: 1000px;
+	padding: 0px;
+	margin: 0px;
+	
+
+
+}
+header
+{
+	text-align: center;
+	width: 100%;
+	height: 700px;
+	position: fixed;
+	font-size:40px;
+
+}
+header:before
+{
+	content: '';
+	
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+
+h1
+{
+	font-size: 26px;
+	-moz-transition:5s;
+	font-family: "letra";
+	width: 100%;
+
+}
+section
+{
+	background-color: #fff;
+	
+	width: 40%;
+	height: 600px;
+	margin-left:3%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+iframe
+{
+
+	width: 100%;
+	border: none;
+	height: 100%;
+	vertical-align: top;
+
+}
+footer
+{
+	width: 100%;
+	height: 300px;
+	background-color: gray;
+	bottom: 0;
+	text-align: center;
+	font-family: 'SintonyRegular';
+	color: #A8A8A8;
+	box-shadow: 1px -3px 5px #434343;
+	display: none;
+}
+
+#imagen
+{
+	display: none;
+	width: 80%;
+}
+#main 
+{
+	width: 50%;
+	display: inline-block;
+	vertical-align: middle;
+	color: #C0C0C0;
+
+}
+.navegacion *
+{ 
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	color:#080808;
+	font-family: 'SintonyRegular';
+
+
+
+
+	
+
+
+}
+.navegacion
+{
+	width: 100%;
+	height: 65px;
+	background-color: gray;
+	background-position: initial initial;
+	margin-top: 0px;
+	box-shadow: 5px 3px 5px #434343;
+
+
+
+
+}
+ 
+.nav > li 
+{
+float:left;
+
+}
+ 
+.nav li a
+{
+
+display:block;
+padding: 18px 3px;
+background-color: gray;
+border-right: 1px solid #585858 ;
+border-bottom: 1px solid #585858 ;
+margin: .2px;
+box-shadow: 2px 3px 2px #434343;
+vertical-align: middle;
+margin-top: 3px;
+
+
+
+}
+.nav li a:hover
+{
+	background-color:#C0C0C0;
+
+}
+.nav li input
+{
+
+display:block;
+padding: 10px 5px;
+margin-top: 5px;
+margin-left: 0;
+
+}
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+
+}
+
+
+.nav li:hover > ul
+{
+	display: block;
+	border: 1px solid #585858 ;
+
+
+}
+#buscar1 
+{
+	text-align: right;
+	padding: 15px;
+	margin:0;
+	
+
+}
+#buscar1 #s 
+{
+	width: 150px;
+	background-color: ;
+}
+#b 
+{
+	padding: 4px;
+	transition:1s;
+	border-radius: 0;
+	background-color:#006699;
+	border: 0;
+	width: 100px;
+
+ 
+}
+#inicio
+{
+	margin-left: 50px;
+}
+#enlaces
+{	
+
+	width: 60%;
+	background:  url(../imagenes/ticks.png);
+	display: inline-block;
+	height: 80%;
+	margin-top: 30px;
+	text-align: left;
+	box-shadow: 2px 3px 2px #434343; 
+	
+
+
+}
+#enlaces ul a
+{
+	text-decoration: none;
+}
+#enlaces ul li 
+{
+	list-style: none;
+	font-family: font-family: 'SintonyRegular';
+	font-size: 16px;
+	padding: 10px 15px;
+	border-bottom: 1px solid black;
+	width: 60px;
+
+
+}
+#enlaces1
+{
+	width: 40%;
+	
+
+
+}
+#social
+{
+	width: 40%;
+	margin-left:10%; 
+	text-align: right;
+	margin-top: 30px;
+}
+#enlaces1 , #social
+{
+	vertical-align: top;
+	display: inline-block;
+}
+#social li 
+{
+	list-style: none;
+}
+#enlacerelleno1
+{
+	width: 20%;
+}
+#enlacerelleno2
+{	
+	width: 20%
+
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1440){
+	.navegacion
+		{
+		width: 1300px;
+		position: 'fixed';
+		}
+	}
+@media screen and (max-width:434px) {
+	#buscar1
+	
+		{
+		text-align: left;
+		margin:0;
+		}
+		#buscar1 #s 
+{
+	width: 80px;
+	
+	background-color: ;
+}
+		#b
+		{
+			
+		}
+		#s 
+		{
+			margin-left: 10px;
+			margin-top: 0;
+			height: 100%;
+		}
+		#inicio
+		{
+			margin-left: 2px;
+		}
+		.nav li a 
+		{
+			padding: 0px 0px;
+			font-size: 16px;
+		}
+		
+		.navegacion
+		{
+			width: 100%;
+			height: 40px;
+			background-color: gray;
+	
+			margin-top: 0px;
+		}
+		header
+		{
+			height: 500px;
+		}
+		#enlaces ul li 
+		{
+			font-size: 16px;
+	        padding: 3px 3px;
+		}
+
+
+	}
